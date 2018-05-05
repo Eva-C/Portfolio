@@ -1,0 +1,178 @@
+/*****BASE STYLES *****/
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  }
+.half-width{
+  width: 600px;
+  float: left;
+  }
+.third-width {
+  width: 400px;
+  float: left;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+}
+
+/*****HEADER*****/
+
+}
+nav {
+  float: right;
+  padding: 20px 20px;
+
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 19px;
+  color: #3b3b3b;
+  padding-left: 150px;
+}
+header h1 {
+  width: 400px;
+  font-family: 'playfair display', serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: lighter;
+  color: #3b3b3b;
+  padding-top: 80px;
+
+  text-align: center;
+}
+header h4 {
+  width: 400px;
+  clear: both;
+  font-family: 'Fauna One', serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #3b3b3b;
+
+  text-align: center;
+}
+header p {
+  width: 400px;
+  clear: both;
+  font-family: 'Fauna One', serif;
+  font-size: 40px;
+  line-height: 45px;
+  color: #050505;
+  text-align: center;
+
+  padding-top: 100px;
+}
+
+/*****ABOUT*****/
+#welcome img{  
+  width: 600px;
+  padding-left: 66px;
+}
+
+#about .full-width {
+  padding: 200px 0;
+  margin-top: 200px;
+  background: url(../img/about-triangle.png);
+  background-size: cover;
+  clear:both;
+}
+#about h3{
+  font-size: 28px;
+}
+#about p {
+  width: 600px;
+  font-size: 18px;
+  color: #1b1b1a;
+  line-height:30px;
+  text-align: left;
+}
+#my-photo img {
+  width: 320px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+}
+#skills{
+  height: 600px;
+  clear:both;
+}
+#skills h2 {
+  font-size: 18px;
+  text-align: center;
+  width: 100px;
+  padding-left: 100px;
+}
+#skills img {
+  width: 200px;
+  padding-left: 100px;
+  padding-top: 74px;
+  padding-bottom: 1px;
+}
+#css img {
+  padding-top: 102px;
+}
+ #design img {
+   padding-top: 80px;
+ }
+
+
+/*****WORK*****/
+#work {
+  height: 600px;
+  clear: both;
+}
+#work img {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 100px;
+  border: 2px solid #b2928e;
+}
+#work h2 {
+  text-align: center;
+  margin-top: -154px;
+  padding-bottom: 80px;
+}
+#work h3 {
+  font-family: 'Fauna One';
+  font-size: 20px;
+  text-align: center;
+}
+#work p {
+  font-family: 'Fauna One';
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: center;
+}
+/*****CONTACT*****/
+footer {
+  background-color: #6b6565;
+  height: 500px;
+  color: #f9f4f4;
+  font-family: 'Fauna One', serif;
+  text-align: center;
+}
+footer h3{
+  padding-top: 64px;
+  font-size: 16px;
+}
+
+footer a {
+  padding: 20px;
+}
+
+footer p {
+  font-size: 11px;
+  display: inline-block;
+  margin-top: 138px;
+  padding: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid #f9f4f4;
+  width: 1200px;
+}
